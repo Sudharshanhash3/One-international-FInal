@@ -1,0 +1,181 @@
+.scroll01 { background: url("../images/web-bg01.png"); background-attachment: fixed; background-origin: initial; background-clip: initial; background-size: cover; background-repeat: no-repeat; background-position: 100% 0 !important; position: relative; /*height:55vh;*/ }
+.scroll_section01 { float: left; width: 100%; padding:3% 0; }
+.scroll_section_left { float: left; width: 50%; }
+.scroll_section_right { float: right; width: 50%; font-size: calc(16px + (80 - 30) * ((100vw - 320px) / (1920 - 320))); line-height: 85px; text-transform: uppercase; color: #fff;text-align: right; padding:0px 75px 0px 0px;  }
+.scroll_section_right span { float: right; width: 100%;font-weight:normal; }
+.scroll_section_right p { font-size: 19px; text-transform: none; line-height: 28px; }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+.scroll_section_right { float: right; width: 100%; font-size: calc(16px + (80 - 30) * ((100vw - 320px) / (1920 - 320))); line-height:20px; text-transform: uppercase; color: #fff;text-align: center; padding:0px 25px 0px 25px;  }
+.scroll_section_right span { float: right; width: 100%; font-weight:bold; }
+.scroll_section_right p { font-size:15px; text-transform: none; line-height:17px; }
+
+.scroll_sec1_icon a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 65px;
+    padding-top: 10px;
+}
+
+
+
+}
+
+
+
+
+/*round icon*/
+.scroll_sec1_icon { float: left; width: 35%; text-align: center; margin-top: -10px; padding-left: 90px; }
+.scroll_sec1_icon a { color: #fff; font-size: 20px; line-height: 65px; padding-top: 10px; }
+.businessapp_icon { width: 130px; height: 130px; border-radius: 50%; background:#1b2544; display: block; padding: 10px 0 0 0; margin: 0 auto; }
+.businessapp_icon .fa-laptop { color:#edc05a; border: dashed 1px #fff; font-size: 50px; padding: 28px; border-radius: 50%; width: 110px; height: 110px; }
+.scroll_sec1_icon { -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */ transition: width 1s, height 1s, transform 1s; }
+.scroll_sec1_icon:hover .businessapp_icon { transition: all ease .7s; -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+/*round ends*/
+.scroll_sec1_line { float: left; width: 80%; margin-top: 40px; margin-right: -130px; }
+.scroll_sec1_line1 {
+    float: left;
+    width: 80%;
+    height: 1px;
+    background: #fff;
+    position: relative;
+}
+.arrow_sec { position: absolute; top: -11px; left: 50%; }
+/*arrow*/
+body .arrows { position: relative; /**/ position: absolute; top: 50%; left: 50%; /**/ width: 25px; height: 25px; transform: translate(-50%, -50%); -ms-transform: rotate(-270deg); /* IE 9 */ -webkit-transform: rotate(-270deg); /* Chrome, Safari, Opera */ transform: rotate(-270deg); }
+.arrows:before { content: ''; position: absolute; width: 100%; height: 100%; border-left: 2px solid #fff; border-bottom: 2px solid #fff; transform: translate(2px, 8px) rotate(-45deg); animation: arrows 1.5s linear infinite; }
+.arrows:after { content: ''; position: absolute; width: 100%; height: 100%; border-left: 2px solid #fff; border-bottom: 2px solid #fff; transform: translate(8px, 0px) rotate(-45deg); animation: arrows 1.5s linear infinite -0.75s; }
+ @keyframes arrows {
+ 0% {
+ border-left: 2px solid transparent;
+ border-bottom: 2px solid transparent;
+ transform: translate(-1px, -100px) rotate(-45deg);
+}
+ 10%, 90% {
+ border-left: 2px solid transparent;
+ border-bottom: 2px solid transparent;
+}
+ 50% {
+ border-left: 2px solid #fff;
+ border-bottom: 2px solid #fff;
+ transform: translate(-1px, 0px) rotate(-45deg);
+}
+ 100% {
+ border-left: 2px solid transparent;
+ border-bottom: 2px solid transparent;
+ transform: translate(-1px, 100px) rotate(-45deg);
+}
+}
+/***12oct2017***/
+.angleaarow01 { color:#edc05a !important; font-size: 16px; }
+.angleaarow01:hover { color: #00b7e0 !important; font-size: 16px; }
+.learnbtn { float: left; width: 100%; text-align: center; }
+
+
+
+/*  Scroll 2/*
+ *
+ *------------------------------------------------------------------- */
+#scroll02 { background: url("../images/mob-bg01.png");
+			background-attachment: fixed; 
+			background-origin: initial;
+			background-clip: initial;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: 100% 0 !important;
+			position: relative;/*height:55vh;*/
+			 }
+#scroll02 .scroll_section_right { color: #fff; float: left; font-size: calc(16px + (80 - 30) * ((100vw - 320px) / (1920 - 320)));  line-height: 85px; padding: 0px 0px 0px 75px; text-align: left; text-transform: uppercase; width: 50%; }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+#scroll02 .scroll_section_right {
+    color: #fff;
+    float: ;
+    font-size: calc(16px + (80 - 30) * ((100vw - 320px) / (1920 - 320)));
+    line-height: 28px;
+    padding:0px 15px 0px 15px ;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+}
+
+
+
+#scroll02 .scroll_section_left { float: right; width: 50%; }
+#scroll02 .scroll_sec1_icon { float: right; margin-top: -10px; padding-right: 90px; text-align: center; width: 35%; padding-left: 0; }
+#scroll02 .scroll_sec1_line { float: left; margin-left: -130px; margin-top: 40px; width: 80%; }
+body #scroll02 .arrows { position: relative; /**/ position: absolute; top: 50%; left: 50%; /**/ width: 25px; height: 25px; transform: translate(-50%, -50%); -ms-transform: rotate(270deg); /* IE 9 */ -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */ transform: rotate(270deg); }
+#scroll02 .businessapp_icon .fa-mobile { color:#edc05a; border: dashed 1px #fff; font-size: 50px; padding: 28px; border-radius: 50%; width: 110px; height: 110px; }
+#scroll02 .businessapp_icon .fa-lightbulb-o { color: #fff; border: dashed 1px #fff; font-size: 50px; padding: 28px; border-radius: 50%; width: 110px; height: 110px; }
+#scroll02 .scroll_sec1_icon { -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */ transition: width 1s, height 1s, transform 1s; }
+#scroll02 .scroll_sec1_icon:hover .businessapp_icon { transition: all ease .7s; -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+#scroll02 .scroll_section01 { padding:2% 0; }
+/* ===================================================================
+ *  Scroll 3 
+ *
+ * ------------------------------------------------------------------- */
+#scroll03 { background: url("../images/digital_marketing.png"); background-attachment: fixed; background-origin: initial; background-clip: initial; background-size: cover; background-repeat: no-repeat; background-position: 100% 0 !important; position: relative; /*height:80vh;*/ }
+#scroll03 .businessapp_icon .fa-rocket { color: #edc05a; border: dashed 1px #fff; font-size: 50px; padding: 28px; border-radius: 50%; width: 110px; height: 110px; }
+#scroll03 .scroll_sec1_icon { -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */ transition: width 1s, height 1s, transform 1s; }
+#scroll03 .scroll_sec1_icon:hover .businessapp_icon { transition: all ease .7s; -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+#scroll03 .scroll_section01 { padding:3% 0; }
+/*
+
+
+/*  Scroll 4/*
+ *
+ * ------------------------------------------------------------------- */
+#scroll04 { background: url("../images/creative_banner.png");
+			background-attachment: fixed; 
+			background-origin: initial;
+			background-clip: initial;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: 100% 0 !important;
+			position: relative;/*height:80vh;*/
+			 }
+#scroll04 .scroll_section_right { color: #fff; float: left; font-size: calc(16px + (80 - 30) * ((100vw - 320px) / (1920 - 320))); line-height: 85px;padding: 0px 0px 0px 75px; text-align: left; text-transform: uppercase; width: 50%; }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#scroll04 .scroll_section_right {
+    color: #fff;
+    float: left;
+    font-size: calc(16px + (80 - 30) * ((100vw - 320px) / (1920 - 320)));
+    line-height: 85px;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+}
+
+#scroll04 .scroll_section_left { float: right; width: 50%; }
+#scroll04 .scroll_sec1_icon { float: right; margin-top: -10px; padding-right: 90px; text-align: center; width: 35%; padding-left: 0; }
+#scroll04 .scroll_sec1_line { float: left; margin-left: -130px; margin-top: 40px; width: 80%; }
+body #scroll04 .arrows { position: relative; /**/ position: absolute; top: 50%; left: 50%; /**/ width: 25px; height: 25px; transform: translate(-50%, -50%); -ms-transform: rotate(270deg); /* IE 9 */ -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */ transform: rotate(270deg); }
+#scroll04 .businessapp_icon .fa-lightbulb-o { color:#edc05a; border: dashed 1px #fff; font-size: 50px; padding: 28px; border-radius: 50%; width: 110px; height: 110px; }
+#scroll04 .scroll_sec1_icon { -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */ transition: width 1s, height 1s, transform 1s; }
+#scroll04 .scroll_sec1_icon:hover .businessapp_icon { transition: all ease .7s; -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+#scroll04 .scroll_section01 { padding:3% 0; }
+/*
+ *  Scroll 5 
+ *
+ *------------------------------------------------------------------- */
+#scroll05 { background: url("../images/digital_marketing.png"); background-attachment: fixed; background-origin: initial; background-clip: initial; background-size: cover; background-repeat: no-repeat; background-position: 100% 0 !important; position: relative; height:80vh; }
+#scroll05 .businessapp_icon .fa-rocket { color: #fff; border: dashed 1px #fff; font-size: 50px; padding: 28px; border-radius: 50%; width: 110px; height: 110px; }
+#scroll05 .scroll_sec1_icon { -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */ transition: width 1s, height 1s, transform 1s; }
+#scroll05 .scroll_sec1_icon:hover .businessapp_icon { transition: all ease .7s; -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+#scroll05 .scroll_section01 { padding: 15.5% 0; }
+/*
+
+
+
+
+
+

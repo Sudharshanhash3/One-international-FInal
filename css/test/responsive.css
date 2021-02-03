@@ -1,0 +1,602 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+
+.serached02 {
+   
+    color: #000;
+  
+}
+
+
+.sertext02 {
+   
+    color: #000;
+  
+}
+
+.serached03 {
+
+    color: #fff;
+ 
+}
+.sertext03 {
+  
+    color: #fff;
+  
+}
+
+	
+.backgr{
+background: rgba(224,224,224,1);
+background: -moz-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(49%, rgba(224,224,224,1)), color-stop(49%, rgba(199,31,65,1)), color-stop(100%, rgba(199,31,65,1)));
+background: -webkit-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: -o-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: -ms-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: linear-gradient(to bottom, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#c71f41', GradientType=0 );
+}
+
+
+.backgr01{
+background: rgba(224,224,224,1);
+background: -moz-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(49%, rgba(224,224,224,1)), color-stop(49%, rgba(199,31,65,1)), color-stop(100%, rgba(199,31,65,1)));
+background: -webkit-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: -o-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: -ms-linear-gradient(top, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+background: linear-gradient(to bottom, rgba(224,224,224,1) 49%, rgba(199,31,65,1) 49%, rgba(199,31,65,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#c71f41', GradientType=0 );
+}
+	
+	
+.icon-left{ width: 35px;
+float: left;
+padding-bottom: 15px;
+padding-top: 15px;}	
+
+.serbox {
+    width: 100%;
+    padding: 40px 20px;
+    float: left;
+}
+	
+.icon-left01{ width: 35px;
+float: left;
+padding-bottom: 15px;
+padding-top: 15px;}		
+	
+	
+.serbox01 {
+    width: 100%;
+    padding: 40px 20px;
+    float: left;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+.carousel-caption h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: bold;
+}
+.carousel-caption p {
+    font-size: 15px;
+}
+.service-text h2 {
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.service-text p {
+    font-size: 15px;
+    color: #b0b0b0;
+    text-align: center;
+}
+
+.callnumber {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+
+.bookappo {
+    width: 100%;
+    float: right;
+    background: #c71f41;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-top: 15px;
+}
+
+.topbox {
+    width: 100%;
+    width: 100%;
+    position: static;
+    background: #fff;
+    padding: 30px 0px 0px 0px;
+    z-index: 500;
+}
+
+.brand img {
+    width: 50%;
+    text-align: center;
+}
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+.bgback {
+    background: url(../images/slide-bg.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.weban14 {
+    width: 32%;
+    position: absolute;
+    top: 34px;
+    left: 16px;
+    z-index: 18;
+}
+
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.weban14 {
+  width: 25%;
+position: absolute;
+top: 63px;
+left: 86px;
+z-index: 18;
+}
+
+
+.weban08 {
+    width: 4%;
+    position: absolute;
+    bottom: 89px;
+    right: 78px;
+    z-index: 11;
+}
+.weban13 {
+    width: 18%;
+    position: absolute;
+    top: 122px;
+    right: 148px;
+    z-index: 19;
+}
+.weban16 {
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    top: 80px;
+    right: 193px;
+    z-index: 13;
+}
+.weban17 {
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    top: 92px;
+    right: 171px;
+    z-index: 14;
+}
+
+.moban02 {
+    width: 21%;
+    position: absolute;
+    top: 114px;
+    left: 99px;
+    z-index: 2;
+}
+
+.digiani11 {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 84px;
+    z-index: 3;
+}
+.digiani03 {
+    width: 21%;
+    position: absolute;
+    top: 13px;
+    left: 93px;
+    z-index: 4;
+}
+.digiani08 {
+    width: 17%;
+    position: absolute;
+    top: 90px;
+    right: 176px;
+    z-index: 8;
+}
+.digiani02 {
+    width: 45%;
+    position: absolute;
+    bottom: -3px;
+    left: 76px;
+    z-index: 2;
+}
+
+.digiani05 {
+    width: 14%;
+    position: absolute;
+    top: 103px;
+    right: 60px;
+    z-index: 6;
+}
+
+
+.digiani04 {
+    width: 13%;
+    position: absolute;
+    bottom: 5px;
+    left: 316px;
+    z-index: 5;
+}
+.ntsani02 {
+    width: 47%;
+    position: absolute;
+    top: 98px;
+    right: 99px;
+    z-index: 2;
+}
+.ntsani03 {
+    width: 36%;
+    position: absolute;
+    bottom: 0px;
+    left: 99px;
+    z-index: 3;
+}
+.ntsani04 {
+    width: 13%;
+    position: absolute;
+    bottom: 12px;
+    z-index: 4;
+    right: 101px;
+}
+.ntsani05 {
+    width: 37%;
+    position: absolute;
+    right: 44px;
+    top: 70px;
+    z-index: 5;
+}
+.ntsani06 {
+    width: 15%;
+    position: absolute;
+    left: 83px;
+    bottom: 104px;
+    z-index: 6;
+}
+.ntsani07 {
+    width: 4%;
+    position: absolute;
+    left: 94px;
+    top: 134px;
+    z-index: 7;
+}
+
+.ntsani08 {
+    width: 5%;
+    position: absolute;
+    left: 167px;
+    top: 164px;
+    z-index: 9;
+}
+.ntsani12 {
+    width: 7%;
+    position: absolute;
+    right: 113px;
+    top: 119px;
+    z-index: 12;
+}
+.ntsani11 {
+    width: 8%;
+    position: absolute;
+    left: 249px;
+    top: 32px;
+    z-index: 11;
+}
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+.bgback {
+    background: url(../images/slide-bg.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+}
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+.bgback {
+    background: url(../images/slide-bg.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+.bgback {
+    background: url(../images/slide-bg.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+}
+ @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+.bgback {
+    background: url(../images/slide-bg.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+}
+ @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+.bgback {
+    background: url(../images/slide-bg.jpg);
+        background-repeat: repeat;
+        background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+/* Styles */
+}
+ @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+/* Styles */
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+/* Styles */
+}
+ @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+/* Styles */
+
+
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+.grid {
+ display: none;
+width: 100%;
+ max-width: 465px;
+ margin: 10% auto;
+ background: #CCC;
+ position: absolute;
+ z-index: 450;
+ right: 223px;
+}
+ .right-number {
+ width: auto;
+ float: right;
+ border-right: #323232 solid 1px;
+ padding: 0px 5px 5px !important;
+ margin-top: 10px;
+}
+ #menu {
+ top: 132px;
+}
+ .abtext h2 {
+ font-size: 20px;
+ text-align: left;
+}
+ .about-sub .hedtext {
+ font-size: 15px;
+ font-weight: 600;
+ color: #000;
+ text-align: left;
+ padding: 0px;
+}
+ .qes h2 {
+ width: 100%;
+ margin: 0px;
+ padding: 0px 0px 0px 0px;
+ color: 
+ #496894;
+ font-size:30px;
+ text-align: left;
+}
+ .topbox {
+ width: 100%;
+ position: static;
+ background: 
+ #fff;
+ padding: 0px;
+ z-index: 500;
+}
+
+.carousel-caption h3 {
+    font-size:30px;
+    font-weight: 600;
+}
+}
+ @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+ .grid {
+ display: none;
+ width: 100%;
+ max-width: 465px;
+ margin: 10% auto;
+ position: absolute;
+ z-index: 450;
+ right: 223px;
+}
+/* Styles */
+}
+ @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+/* Styles */
+}
+ @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+/* Styles */
+}
+ @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+/* Styles */
+}
