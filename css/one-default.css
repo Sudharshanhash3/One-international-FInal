@@ -6591,10 +6591,10 @@ h6.narrow {
     top: 0;
     left: 0;
     animation: shine 2.5s infinite cubic-bezier(0.42, 0, 0.58, 1);
-    background: #e6af2e;
-    background: linear-gradient(to right, #e6af2e, #e6af2e, );
+    background: rgba(255, 255, 255, 0.8);
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#00ffffff", GradientType=1);
-    background: linear-gradient(to right, #e6af2e, #e6af2e, );
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#00ffffff", GradientType=1);
     /* IE6-9 */
