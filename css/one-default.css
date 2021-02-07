@@ -6567,26 +6567,26 @@ h6.narrow {
     mask-position: top left;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    -webkit-mask-size: 360px 190px;
-    mask-size: 360px 190px;
-    width: 360px;
-    height: 190px;
+    -webkit-mask-size: 180px 95px;
+    mask-size: 180px 95px;
+    width: 180px;
+    height: 95px;
 }
 
 @media (max-width: 991px) {
     .fullpage-loader .fullpage-loader__logo {
-        -webkit-mask-size: 140px 140px;
-        mask-size: 140px 140px;
-        width: 140px;
-        height: 140px;
+        -webkit-mask-size: 180px 95px;
+        mask-size: 180px 95px;
+        width: 180px;
+        height: 95px;
     }
 }
 
 .fullpage-loader .fullpage-loader__logo:after {
     font-family: iroid!important;
     content: "";
-    height: 100%;
-    width: 50%;
+    height: 180px;
+    width: 95px;
     position: absolute;
     top: 0;
     left: 0;

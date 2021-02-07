@@ -1,7 +1,7 @@
 
 
 var select = document.getElementById("country"); 
-var selectser = document.getElementById("serviceslist"); 
+var selectser = document.getElementById("servicelist"); 
 var services = ["Website Developemnt",
 "E-commerce design & development",
 "Content management System",
@@ -273,6 +273,12 @@ var country = ["Afghanistan",
 "Zambia",
 "Zimbabwe",
 "Åland Islands"]; 
+
+
+
+
+
+
   
 
         function load_list() { 
@@ -285,13 +291,46 @@ var country = ["Afghanistan",
             } 
            
          } 
+        //  function load_services() { 
+        //     for (var j = 0; j < services.length; j++) { 
+        //         var soptn = services[j]; 
+        //         var sl = document.createElement("option"); 
+        //         sl.textContent = soptn; 
+        //         sl.value = soptn; 
+        //         selectser.appendChild(sl); 
+        //     } 
+           
+        //  } 
+
          function load_services() { 
             for (var j = 0; j < services.length; j++) { 
-                var soptn = services[j]; 
-                var sl = document.createElement("option"); 
-                sl.textContent = soptn; 
-                sl.value = soptn; 
-                selectser.appendChild(sl); 
+                var checkBox = document.createElement("input");
+                var label = document.createElement("label");
+                var block = document.createElement("div");
+                block.className="dropdown-item";
+                checkBox.type = "checkbox";
+                checkBox.className="form-check-input";
+                label.className="form-check-label";
+                checkBox.value = services[j];
+                selectser.appendChild(block);
+                block.appendChild(checkBox);
+                block.appendChild(label);
+                label.appendChild(document.createTextNode(services[j]));
+
             } 
            
          } 
+
+  
+
+        //  var myDiv = document.getElementById("cboxes");
+         
+        //  for (var i = 0; i < animals.length; i++) {
+        //      var checkBox = document.createElement("input");
+        //      var label = document.createElement("label");
+        //      checkBox.type = "checkbox";
+        //      checkBox.value = animals[i];
+        //      myDiv.appendChild(checkBox);
+        //      myDiv.appendChild(label);
+        //      label.appendChild(document.createTextNode(animals[i]));
+        //  }
