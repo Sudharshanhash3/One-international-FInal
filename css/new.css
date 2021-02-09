@@ -127,7 +127,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    padding: 40px;
+    padding: 50px 40px;
 }
 
 .mainbt {
@@ -392,6 +392,13 @@ li.no-bullets {
 }
 
 @media (max-width: 961px) {
+    .tabcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .tabcol {
+        display: none!important;
+    }
     .page-header {
         text-align: center;
     }
@@ -494,4 +501,86 @@ li.no-bullets {
 .btn-outline-dark:hover {
     background: transparent!important;
     color: #a0a0a0!important;
+}
+
+.servicetab {
+    float: left;
+    width: 100%;
+}
+
+.servicetab button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background-color: inherit;
+    color: rgba(0, 0, 0, 0.349);
+    padding: 22px 16px;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.servicetab button.active {
+    font-weight: 800 !important;
+    color: #000000 !important;
+}
+
+.servicecontent {
+    float: left;
+    padding: 0px 12px;
+    width: 100%;
+    height: 100%;
+    border-left: none;
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tabimages {
+    max-height: 300px;
+}
+
+.tabwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    display: none;
+    color: #02244f;
+    transform: translateX(-2px);
+}
+
+.servicetab button:hover>.linkdummy>.arrow {
+    display: block;
+    transition: 0.2s ease-in-out;
+    transform: translateX(10px);
+}
+
+.linkdummy {
+    text-decoration: none!important;
+    color: rgba(0, 0, 0, 0.349);
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.servicetab button:hover>.linkdummy {
+    font-weight: 800 !important;
+    color: #02244f!important;
+    transition: 0.2s ease-in-out;
+}
+
+.servicetab button:active>.linkdummy {
+    font-weight: 800 !important;
+    color: #02244f!important;
 }
