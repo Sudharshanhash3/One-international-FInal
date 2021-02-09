@@ -20,68 +20,8 @@
 </head>
 
 <body>
-    <div class="navbar-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="./One-in-new/assets/images/logo-new.png" alt="Logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="toggler-icon"></span>
-                            <span class="toggler-icon"></span>
-                            <span class="toggler-icon"></span>
-                        </button>
+    <?php include ("./header.php") ?>
 
-                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                            <ul id="nav" class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="whoweare.html">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <div class="dropdown show">
-                                        <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Services
-                                        </a>
-
-                                        <div class="dropdown-menu dmenu" aria-labelledby="dropdownMenuLink">
-                                            <a class="dropdown-item dlist" href="websitedevelopment.html">
-                                                <span class="iconify" data-icon="uil:desktop" data-inline="false" data-width="20" data-height="20"> </span> Website Designing</a>
-                                            <a class="dropdown-item dlist" href="appdevelopment.html">
-                                                <span class="iconify" data-icon="uil:apps" data-inline="false" data-width="20" data-height="20"> </span> App Development</a>
-                                            <a class="dropdown-item dlist" href="digitalmarketing.html">
-                                                <span class="iconify" data-icon="uil:chart-pie-alt" data-inline="false" data-width="20" data-height="20"> </span> Digital marketing</a>
-                                            <a class="dropdown-item dlist" href="creativecommunication.html">
-                                                <span class="iconify" data-icon="uil:paint-tool" data-inline="false" data-width="20" data-height="20"> </span> Creative Communication</a>
-
-
-                                        </div>
-                                    </div>
-                                </li>
-
-
-                                <li class="nav-item active">
-                                    <a href="ideastoproducts.html">Ideas to products</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="faq.html">FAQ</a>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                    </nav>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
     <section style="display: flex;align-items: center; justify-content: center; background: #edeff2;" class="pt-100 pb-100">
         <div class="container">
             <div class="row">
@@ -213,259 +153,21 @@
         </div>
     </section> -->
 
-  
+    <div id="contact"> </div>
     <div class="modal fade" id="getaquote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content" style="padding-top: 50px;">
-                <div class="modal-header pt-60" style="display: flex; justify-content: center;align-items: center;flex-direction: column; border: none;">
-                    <h3 class="modal-title" id="exampleModalLabel">Request a <span style="color:#e6af2e ;">Quote</span></h3>
-                        <p> We Produce great ideas and Build New World</p>
-                        <button type="button" style="position: absolute; right:0;margin:0; top: 0;" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-                </div>
-                <div class="modal-body">
-                    <div class="pl-20 pr-20">
-                        <form>
-                            <div class="form-row ">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Your name">
-                                </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Your Company name">
-                                </div>
-                            </div>
-                            <div class="form-row mt-20">
-                                <div class="col">
-                                    <input type="email" class="form-control" placeholder="Email ID">
-                                </div>
-                                <div class="col">
-                                    <input type="tel" class="form-control" placeholder="phone Number">
-                                </div>
-                            </div>
-                            <div class="form-row  mt-20">
-                                <div class="col">
-                                    <select id="country" class="form-control" onclick="load_list();this.onclick=null">
-                                        <option value="" disabled selected>Select your Country</option>
-                                      </select>
-                                </div>
-
-                                <!-- <div class="col">
-                                    <select id="servicelist" class="form-control" onclick="load_services();this.onclick=null">
-                                        <option value="" disabled selected> Select Service </option>
-                                        
-                                      </select>
-                                </div> -->
-                                <div class="col">
-                                    <div class="dropdown" onclick="load_services();this.onclick=null">
-                                        <button class="btn btn-block dropdown-toggle btn-outline-dark text-left " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Select Service
-                                        </button>
-                                        <div class="dropdown-menu getdropdown" id="servicelist" aria-labelledby="dropdownMenuButton">
-
-                                        </div>
-                                    </div>
-                                </div>
+        <div class="modal-dialog modal-dialog-centered modal-lg"> <?php include ("./getaquote.php") ?></div>
+    </div>
+        
 
 
-
-
-
-
-
-
-                            </div>
-                            <div class="form-row  mt-20">
-                                <div class="col">
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Enter Details"></textarea>
-                                </div>
-
-                            </div>
-
-                            <div style="width: 100%; " class="text-center">
-                                <button type="submit" class="mainbt mt-30">Send</button>
-                            </div>
-                        </form>
-                    </div>
-
-
-
-                </div>
-                <div class="modal-footer text-center" style="display: flex;justify-content: center;border: none">
-
-
-                </div>
-            </div>
-        </div>
-        </div>
+        <?php include ("./footer.php") ?>
         <script src="./js/list.js"></script>
-
-
-        <footer class="footerbg pb-40">
-
-
-
-            <div class="container pt-10">
-                <div style="width: 100%;" class="row footerwrapper">
-                    <div class="col-sm">
-                        <ul>
-                            <li style="color: #ffffff!important;">
-                                <b>Company</b>
-                            </li>
-                            <li><a class="submenufoot" href='index.html'>Home</a> </li>
-                            <li><a href='whoweare.html'>Who we are</a> </li>
-                            <li><a href='websitedevelopment.html'>Services</a> </li>
-                            <li><a href='ideastoproducts.html'>Ideas to Products</a> </li>
-                            <li><a href='faq.html'>FAQ</a> </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm">
-                        <ul>
-                            <a href="websitedevelopment.html">
-                                <li style="color: #ffffff!important;">
-                                    <b>Website Development</b>
-                                </li>
-                            </a>
-                            <li><a href='websitedevelopment.html#ecommerce'>e-commerce
-                                
-                                </a> </li>
-                            <li><a href='websitedevelopment.html#cms'>CMS
-                                </a> </li>
-                            <li><a href='websitedevelopment.html#webmaintanence'>web maintenance
-                                </a> </li>
-                            <li><a href='websitedevelopment.html#webhosting'>Web hosting
-                                </a> </li>
-
-                        </ul>
-                    </div>
-                    <div class="col-sm">
-                        <ul>
-                            <a href="appdevelopment.html">
-                                <li style="color: #ffffff!important; ">
-                                    <b>App development</b>
-                                </li>
-                            </a>
-                            <li><a href='appdevelopment.html#android'>Android
-                                
-                                </a> </li>
-                            <li><a href='appdevelopment.html#ios'>Ios
-                                </a> </li>
-
-                        </ul>
-                    </div>
-                    <div class="col-sm ">
-                        <ul>
-                            <a href="digitalmarketing.html">
-                                <li style="color: #ffffff!important; ">
-                                    <b>Digital Marketing</b>
-                                </li>
-                            </a>
-                            <li><a href='digitalmarketing.html#smm'>Social media marketing
-                                
-                                </a> </li>
-                            <li><a href='digitalmarketing.html#email'>Email marketing
-                                </a> </li>
-                            <li><a href='digitalmarketing.html#cgm'> Content Generation
-                                </a> </li>
-                            <li><a href='digitalmarketing.html#ppc'>Pay per click
-                                </a> </li>
-                            <li><a href='digitalmarketing.html#seo'>SEO Integration</a> </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm ">
-                        <ul>
-                            <a href="creativecommunication.html">
-                                <li style="color: #ffffff!important; ">
-                                    <b>Creative Communication</b>
-                                </li>
-                            </a>
-                            <li><a href='creativecommunication.html#ads'>Advertising
-                                
-                                </a> </li>
-                            <li><a href='creativecommunication.html#logo'>Logo Designing
-                                </a> </li>
-                            <li><a href='creativecommunication.html#vid'>Visual Identity Design
-                                </a> </li>
-                            <li><a href='creativecommunication.html#gd'>Graphic Design
-                                </a> </li>
-                            <li><a href='creativecommunication.html#uiux'>UI/UX Designing</a> </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm ">
-                        <ul>
-                            <a href="creativecommunication.html">
-                                <li style="color: #ffffff!important; ">
-                                    <b>Technologies</b>
-                                </li>
-                            </a>
-                            <li><a href='#'>PHP Development
-                                
-                                </a> </li>
-                            <li><a href='#'>HTML 5 Design
-                                </a> </li>
-                            <li><a href='#'>Wordpress Development
-                                </a> </li>
-                            <li><a href='#'>Foundation Framework
-                                </a> </li>
-                            <li><a href='#'>jQuery Development</a> </li>
-                            <li><a href='#'>Laravel Development</a> </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-
-
-
-
-
-        </footer>
-        <div class="copyright pt-1 pb-1">
-            <div class="container footerwrapper">
-                <div class="copyrightwrapper">
-                    <div class="pb-2 pt-2">
-                        <p class="mb-0" style="font-size: 14px;color: #ffffff;">Copyright © One International Station</p>
-                    </div>
-                    <div class="pb-2 pt-2">
-                        <img src="./One-in-new/logo-new.png" alt="" style="filter: grayscale(1) brightness(100); width: 60px;">
-                    </div>
-                    <div class="pb-2 pt-2">
-
-
-                        <a class="socialicons" href="https://www.facebook.com/oneint.station" target="blank">
-                            <img src="./images/social/fb.png" alt="" srcset="" width="30px">
-                        </a>
-
-                        <a class="socialicons" href="https://twitter.com/oneint_station?s=09" target="blank">
-                            <img src="./images/social/twitter.png" alt="" srcset="" width="30px">
-                        </a>
-
-
-                        <a class="socialicons" href="https://www.instagram.com/oneint_station/?igshid=1wg1q4b8n0ko3" target="blank">
-                            <img src="./images/social/insta.png" alt="" srcset="" width="30px">
-                        </a>
-
-
-                        <a class="socialicons" href="https://api.whatsapp.com/message/5JFDAXNNX57RF1" target="blank">
-                            <img src="./images/social/wa.png" alt="" srcset="" width="30px">
-                        </a>
-
-
-
-
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-        <div id="contact"> </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <link rel='stylesheet' id='jquery.contactus.css-css' href='css/jquery.contactus.min.css' />
+        <script src="./js/jquery.contactus.min.js"></script>
+        <script src="./js/contact.js"></script>
 
         <script src="./js/jquery-3.2.1.min.js "></script>
         <script src="./js/wow.js " type="text/javascript "></script>
@@ -498,6 +200,11 @@
         <script src="./css/whoweare/vendors/popper.js/popper.min.js"></script>
         <script src="./css/whoweare/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="https://code.iconify.design/1/1.0.7/iconify.min.js "></script>
+
+
+
+
+        
 
 </body>
 
