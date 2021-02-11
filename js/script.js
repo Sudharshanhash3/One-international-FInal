@@ -45,7 +45,7 @@ paceOptions = {
 };
 
 Pace.on('done', function () {
-	$('#fullpage').delay(100).fadeOut(300);
+	$('#fullpage').delay(500).fadeOut(800);
 	$('#loader-container').addClass('active');
 	setTimeout(function () {
 		document.documentElement.className += " is-ready";
@@ -75,7 +75,7 @@ Pace.on('done', function () {
 			autoplay: true,
 			navText: ["<img class='ready img-fluid' src='home/images/arrow-left.svg'>", "<img class='ready img-fluid' src='home/images/arrow-right.svg'>"],
 			items: 1,
-			autoplayTimeout: 1000,
+			autoplayTimeout: 5000,
 			dots: false,
 			lazyLoad: true,
 			animateIn: 'fadeIn',
