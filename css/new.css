@@ -558,13 +558,11 @@ li.no-bullets {
 .arrow {
     display: none;
     color: #02244f;
-    transform: translateX(-2px);
 }
 
 .servicetab button:hover>.linkdummy>.arrow {
     display: block;
     transition: 0.2s ease-in-out;
-    transform: translateX(10px);
 }
 
 .linkdummy {
