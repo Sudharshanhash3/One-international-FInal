@@ -6567,10 +6567,10 @@ h6.narrow {
     mask-position: top left;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    -webkit-mask-size: 180px 95px;
-    mask-size: 180px 95px;
-    width: 180px;
-    height: 95px;
+    -webkit-mask-size: 360px 190px;
+    mask-size: 360px 190px;
+    width: 360px;
+    height: 190px;
 }
 
 @media (max-width: 991px) {

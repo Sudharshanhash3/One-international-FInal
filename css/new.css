@@ -75,7 +75,12 @@
 }
 
 .copyright {
-    background: #011229
+    background: #011229;
+}
+
+.tc {
+    color: #ffffff44;
+    background: #010914;
 }
 
 .service-icon-blue {
@@ -99,11 +104,6 @@
     flex-direction: column;
 }
 
-.portimages {
-    height: 150px;
-    padding: 10px;
-}
-
 .footerwrapper>div>ul>li>a {
     color: #ffffff55!important;
 }
@@ -121,14 +121,28 @@
     color: #ffffff;
 }
 
+.pcards:hover>.portimages {
+    transform: scale(1.09);
+    transition: 0.3s ease-in-out;
+}
+
 .pcards {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    padding: 30px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.portimages {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
 }
 
 .mainbt {
@@ -345,7 +359,7 @@ video {
 
 .socialicons {
     color: rgba(240, 255, 255, 0.212);
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
 
 .centervert {

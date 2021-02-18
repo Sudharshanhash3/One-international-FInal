@@ -44,6 +44,11 @@ paceOptions = {
 	eventLag: false
 };
 
+
+
+
+
+
 Pace.on('done', function () {
 	$('#fullpage').delay(500).fadeOut(800);
 	$('#loader-container').addClass('active');
