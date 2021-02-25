@@ -190,6 +190,21 @@
     background-repeat: no-repeat;
 }
 
+.techimg_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.techimg_wrapper>.tlogo {
+    width: 30%;
+}
+
+.techimg_wrapper>.ttools {
+    width: 80%;
+}
+
 .service-gold {
     background: #e6af2e10;
     padding-top: 60px!important;
@@ -335,20 +350,20 @@ video {
     background-color: #02244f!important;
 }
 
-.dropdown:hover>.dropdown-menu {
+
+/* .dropdown:hover>.dropdown-menu {
     display: block;
     transition: 0.5s ease-in-out;
 }
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+} */
 
 .copyrightwrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.dropdown>.dropdown-toggle:active {
-    pointer-events: none; // Add this, to prevent clicking dropdown's default click function
 }
 
 .footerwrapper {
