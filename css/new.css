@@ -221,9 +221,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #02234f38;
+    background-color: #02234f78;
     background-blend-mode: multiply;
     padding: 100px 0px;
+}
+
+.newsletter>.form-control {
+    /* padding: .1em .5em!important; */
+    background: rgba(255, 255, 255, 0.068)!important;
+    border: 1px solid #fff!important;
+    color: #fff!important;
+    /* height: auto!important; */
+    font-size: 15px!important;
+    width: 50%;
 }
 
 .listingswrapper {
@@ -234,8 +244,8 @@
 }
 
 .listings:hover {
-    background-color: #02234f94;
-    transition: 0.5s ease-in-out;
+    background-color: #02234fea;
+    transition: 0.3s ease-in-out;
 }
 
 video {
@@ -350,14 +360,14 @@ video {
     background-color: #02244f!important;
 }
 
-
-/* .dropdown:hover>.dropdown-menu {
+.nav-item>.dropdown:hover>.dropdown-menu {
     display: block;
     transition: 0.5s ease-in-out;
 }
-.dropdown>.dropdown-toggle:active {
+
+.nav-item>.dropdown>.dropdown-toggle:active {
     pointer-events: none;
-} */
+}
 
 .copyrightwrapper {
     width: 100%;

@@ -303,7 +303,6 @@ var country = ["Afghanistan",
         //  } 
 
         window.onload = load_list();
-        window.onload = load_services();
 
          function load_services() { 
             for (var j = 0; j < services.length; j++) { 
