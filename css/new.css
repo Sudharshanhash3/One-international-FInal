@@ -221,7 +221,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #02234f78;
+    background-color: #02234fb2;
     background-blend-mode: multiply;
     padding: 100px 0px;
 }
@@ -244,7 +244,7 @@
 }
 
 .listings:hover {
-    background-color: #02234fea;
+    background-color: #02234ffa;
     transition: 0.3s ease-in-out;
 }
 
