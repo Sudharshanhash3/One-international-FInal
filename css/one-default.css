@@ -7615,7 +7615,6 @@ input[type=checkbox]:checked+label:after {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(../images/background-filter.png);
 }
 
 .slide-progress {
@@ -7641,7 +7640,6 @@ input[type=checkbox]:checked+label:after {
     top: 0;
     width: 100%;
     /* padding-bottom: calc(100vh);*/
-    background: url(../images/bannerbg01.png);
 }
 
 .banner.hire {

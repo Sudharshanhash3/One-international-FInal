@@ -5082,7 +5082,7 @@ a.close.disabled {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .modal-xl {
         max-width: 1140px
     }
@@ -5589,7 +5589,7 @@ button.bg-secondary:focus {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .d-xl-none {
         display: none!important
     }
@@ -6307,7 +6307,7 @@ button.bg-secondary:focus {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .flex-xl-row {
         -ms-flex-direction: row!important;
         flex-direction: row!important
@@ -6494,7 +6494,7 @@ button.bg-secondary:focus {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .float-xl-left {
         float: left!important
     }
@@ -8136,7 +8136,7 @@ button.bg-secondary:focus {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .m-xl-0 {
         margin: 0!important
     }
@@ -8557,7 +8557,7 @@ button.bg-secondary:focus {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .text-xl-left {
         text-align: left!important
     }
@@ -9625,7 +9625,7 @@ h6.narrow {
     transform: translate3D(-353px, 0, 0)
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .menu-button.active {
         -webkit-transform: translate3D(-310px, 0, 0);
         -ms-transform: translate3D(-310px, 0, 0);
@@ -10449,7 +10449,6 @@ input[type=checkbox]:checked+label:after {
     z-index: 1;
     top: 0;
     width: 100%;
-    background: url(../images/bannerbg01.png)
 }
 
 .banner.hire {
@@ -11052,7 +11051,7 @@ a:hover {
     background-color: #f5f6f8
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .is-home-page .menu-container {
         background-color: rgba(255, 255, 255, 0.125)!important
     }
@@ -11436,7 +11435,7 @@ video.scaled {
 
 @keyframes dash {
     0% {
-        stroke-dashoffset: 1200
+        stroke-dashoffset: 1080
     }
     70% {
         stroke-dashoffset: 0
@@ -13149,7 +13148,7 @@ svg.iroidlogo.white .st0 {
     z-index: 0
 }
 
-@media(max-width:1366px) {
+@media(max-width:1080px) {
     .ios_android_internal__box {
         -ms-flex-align: start!important;
         align-items: flex-start!important;
@@ -13205,7 +13204,7 @@ svg.iroidlogo.white .st0 {
     margin: 0 auto
 }
 
-@media(max-width:1366px) {
+@media(max-width:1080px) {
     .ios_android_internal__box .inner--box {
         padding: 80px
     }
@@ -15291,7 +15290,7 @@ svg.pulse-svg .third-circle {
     text-align: center
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .footer-logo {
         text-align: left
     }
@@ -15757,7 +15756,7 @@ address {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .testimonial__frame {
         min-height: 200px
     }
@@ -15892,7 +15891,7 @@ address {
     z-index: 333
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .hire--developer {
         padding-bottom: 8rem
     }
@@ -16537,7 +16536,7 @@ address {
     font-weight: 600
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .post-wrapper .post .post-content .post-title {
         font-size: 30px;
         line-height: 42px
@@ -18736,7 +18735,7 @@ body.light .progress-wrap svg.progress-circle path {
     background-color: #373d4c
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .menu-container {
         border-radius: 12px
     }
@@ -18831,7 +18830,7 @@ body.light .progress-wrap svg.progress-circle path {
     -ms-flex-wrap: nowrap!important;
     flex-wrap: nowrap!important;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1080px;
     min-height: 400px
 }
 
@@ -19290,7 +19289,7 @@ svg.icon {
     padding: 50px 15px 15px
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .small-container {
         width: 950px
     }
@@ -19694,7 +19693,7 @@ span.job-meta {
     }
 }
 
-@media(min-width:1200px) {
+@media(min-width:1080px) {
     .cover-half-s {
         padding: 40px
     }
@@ -21426,7 +21425,7 @@ svg.hidden {
     left: 0;
     top: 0;
     transform-style: preserve-3d;
-    transform: perspective(1200px) rotateY(-90deg) translateZ(0px);
+    transform: perspective(1080px) rotateY(-90deg) translateZ(0px);
     opacity: 0;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -21457,7 +21456,7 @@ svg.hidden {
 }
 
 .event-block-one:hover .lower-content .date--section {
-    transform: perspective(1200px) rotateY(360deg) translateZ(0px)
+    transform: perspective(1080px) rotateY(360deg) translateZ(0px)
 }
 
 .event-block-one .lower-content .date--section {
@@ -21476,7 +21475,7 @@ svg.hidden {
     margin-top: -65px;
     margin-bottom: 15px;
     transition: all 900ms ease 200ms;
-    transform: perspective(1200px) rotateY(0deg) translateZ(0px);
+    transform: perspective(1080px) rotateY(0deg) translateZ(0px);
     margin-left: auto;
     margin-right: auto
 }
