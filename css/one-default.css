@@ -8497,10 +8497,18 @@ video.scaled {
         font-size: 2rem;
         color: #000 !important;
     }
+    .home-hero .copy--title h1 {
+        font-size: 2rem;
+        color: #000 !important;
+    }
 }
 
 @media (min-width: 992px) {
     .home-hero .copy--title h2 {
+        font-size: 3rem;
+        color: #000 !important;
+    }
+    .home-hero .copy--title h1 {
         font-size: 3rem;
         color: #000 !important;
     }
@@ -8511,9 +8519,17 @@ video.scaled {
         font-size: 3.5rem;
         color: #000 !important;
     }
+    .home-hero .copy--title h1 {
+        font-size: 3.5rem;
+        color: #000 !important;
+    }
 }
 
 .home-hero .copy--title h2 span {
+    opacity: 0.65;
+}
+
+.home-hero .copy--title h1 span {
     opacity: 0.65;
 }
 

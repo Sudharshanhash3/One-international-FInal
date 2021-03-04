@@ -10574,7 +10574,7 @@ ul.story-icons-set,
     overflow: hidden
 }
 
-.home-hero .copy--title h2 {
+.home-hero .copy--title h1 {
     color: #000!important;
     font-size: 1.75rem;
     font-weight: 600;
@@ -10624,27 +10624,27 @@ ul.story-icons-set,
 }
 
 @media(min-width:768px) {
-    .home-hero .copy--title h2 {
+    .home-hero .copy--title h1 {
         font-size: 2rem;
         color: #000!important
     }
 }
 
 @media(min-width:992px) {
-    .home-hero .copy--title h2 {
+    .home-hero .copy--title h1 {
         font-size: 3rem;
         color: #000!important
     }
 }
 
 @media(min-width:1299px) {
-    .home-hero .copy--title h2 {
+    .home-hero .copy--title h1 {
         font-size: 3.5rem;
         color: #000!important
     }
 }
 
-.home-hero .copy--title h2 span {
+.home-hero .copy--title h1 span {
     opacity: .65
 }
 
