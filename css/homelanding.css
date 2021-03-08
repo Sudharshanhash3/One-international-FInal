@@ -10749,7 +10749,7 @@ ul.story-icons-set,
     transition: all 2500ms cubic-bezier(0, 0.785, 0, 1)
 }
 
-.home-hero .home-slides .owl-item.active .copy--title h2 {
+.home-hero .home-slides .owl-item.active .copy--title h1 {
     opacity: 1;
     transform: none;
     transition-delay: .8s;

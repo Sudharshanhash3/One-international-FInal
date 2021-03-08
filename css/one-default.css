@@ -8119,7 +8119,7 @@ video.scaled {
     transition: all 2500ms cubic-bezier(0, 0.785, 0, 1);
 }
 
-.home-hero .home-slides .owl-item.active .copy--title h2 {
+.home-hero .home-slides .owl-item.active .copy--title h1 {
     opacity: 1;
     transform: none;
     transition-delay: 0.8s;
@@ -8479,7 +8479,7 @@ video.scaled {
     overflow: hidden;
 }
 
-.home-hero .copy--title h2 {
+.home-hero .copy--title h1 {
     color: #000 !important;
     font-size: 1.75rem;
     font-weight: 600;
@@ -8493,7 +8493,7 @@ video.scaled {
 }
 
 @media (min-width: 768px) {
-    .home-hero .copy--title h2 {
+    .home-hero .copy--title h1 {
         font-size: 2rem;
         color: #000 !important;
     }
@@ -8504,7 +8504,7 @@ video.scaled {
 }
 
 @media (min-width: 992px) {
-    .home-hero .copy--title h2 {
+    .home-hero .copy--title h1 {
         font-size: 3rem;
         color: #000 !important;
     }
@@ -8515,7 +8515,7 @@ video.scaled {
 }
 
 @media (min-width: 1299px) {
-    .home-hero .copy--title h2 {
+    .home-hero .copy--title h1 {
         font-size: 3.5rem;
         color: #000 !important;
     }
@@ -8525,7 +8525,7 @@ video.scaled {
     }
 }
 
-.home-hero .copy--title h2 span {
+.home-hero .copy--title h1 span {
     opacity: 0.65;
 }
 
